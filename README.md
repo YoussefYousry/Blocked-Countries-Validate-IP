@@ -74,7 +74,7 @@ dotnet run --project BlockedCountries/BlockedCountries
 ```
 
 Open Swagger UI at:
-- https://localhost:5001/swagger
+- https://localhost:7198/swagger/index.html
 
 ## 🧠 Features & Endpoints
 
