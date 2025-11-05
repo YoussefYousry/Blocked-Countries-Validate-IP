@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlockedCountries.Application\BlockedCountries.Application.csproj" />
+    <ProjectReference Include="..\BlockedCountries.Common\BlockedCountries.Common.csproj" />
+    <ProjectReference Include="..\BlockedCountries.Infrastructure.Logging\BlockedCountries.Infrastructure.Logging.csproj" />
+    <ProjectReference Include="..\BlockedCountries.Infrastructure\BlockedCountries.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
